@@ -114,6 +114,6 @@ function crearFlorVolando() {
 
 
 // Crear varias flores volando después de que aparezcan los girasoles
-for (let i = 0; i < 8; i++) {
-    setTimeout(crearFlorVolando, 8000 + i * 900);
+for (let i = 0; i < 30; i++) {
+    setTimeout(crearFlorVolando, 8000 + i * 500);
 }
