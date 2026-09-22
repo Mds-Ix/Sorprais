@@ -109,7 +109,7 @@ function crearFlorVolando() {
     // Eliminar después de la animación
     setTimeout(() => {
         flor.remove();
-    }, 7000);
+    }, 15000);
 }
 
 
